@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./assets/css/style.css" rel="stylesheet"" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MyPortfolio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-2" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#my-skill">My Skill</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#my-experience">My Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#my-project"
+                  >Projects I've Worked On</a
+                >
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
+              <li class="nav-item mx-2">
+                <a class="nav-link text-dark h5" href="" target="blank">
+                  <i class="bi bi-envelope-at-fill"></i>
+                </a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-dark h5" href="" target="blank">
+                  <i class="bi bi-youtube"></i>
+                </a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-dark h5" href="" target="blank">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-dark h5" href="" target="blank">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="banner">
+      <div class="p-5" style="margin-top: 58px; background-color: #fffffe">
+        <div class="p-5">
+          <h2 class="mb-3">Selamat datang di Portofolio Saya!</h2>
+          <p class="mb-3 text-justify">
+            Saya Rizal Rio Andrian, seorang mahasiswa IT yang bersemangat. Di
+            sini, Anda akan menemukan karya-karya saya yang mencerminkan
+            dedikasi dan minat saya dalam dunia teknologi. Dari proyek kode
+            hingga desain aplikasi, portofolio ini adalah perjalanan saya dalam
+            mengembangkan keterampilan dan mencapai impian di dunia IT. Mari
+            kita mulai menjelajahi dan temukan potensi bersama!
+          </p>
+          <a class="btn btn-custom-2" href="#about-me" role="button">
+            About Me
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about-me" class="container my-5">
+      <div class="text-center">
+        <h3 class="section-title">About Me</h3>
+        <p>
+          Deskripsi singkat tentang pribadi, pengalaman, minat, dan tujuan
+          penulis atau pemilik website.
+        </p>
+      </div>
+      <div class="container-section mt-5">
+        <div class="row">
+          <div class="col-lg-5">
+            <img
+              src="./assets/image/me.jpg"
+              alt=""
+              style="filter: grayscale(50%)"
+            />
+          </div>
+          <div class="col-lg-7 p-5">
+            <h3>Halo Saya Rizal !</h3>
+            <p style="font-size: 16px; text-align: justify">
+              Hai, Saya Rizal Rio Andrian, mahasiswa semester 4 dari jurusan
+              Informatika di Mercu Buana Yogyakarta. Selain sibuk mengejar ilmu
+              di kampus, saya juga senang banget main game dan eksplorasi dunia
+              pemrograman web. Kalau lagi nggak di depan laptop, pasti ketemu
+              saya lagi seru-seruan dengan teman-teman atau mengejar high score
+              di game favorit saya. Mari berteman dan eksplorasi bersama dalam
+              dunia yang penuh petualangan ini!
+            </p>
+            <a class="btn btn-lg btn-custom" href="#contact-me">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="my-skill" class="container my-5">
+      <div class="text-center">
+        <h3 class="section-title">My Skill</h3>
+        <p>
+          Mencerminkan beragam kemampuan yang saya miliki, mulai dari
+          keterampilan teknis dalam pemrograman hingga keahlian dalam komunikasi
+          dan kerja tim.
+        </p>
+      </div>
+      <div class="container-section mt-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="container text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="120"
+                  height="120"
+                  fill="#fffffe"
+                  class="bi bi-code mb-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8z"
+                  />
+                </svg>
+                <h3 class="mb-3">Backend</h3>
+                <p>
+                  Dalam pengembangan backend, saya memiliki pengetahuan yang
+                  kuat dalam membangun dan mengelola server serta database.
+                </p>
+              </div>
+              <div class="container">
+                <div class="text-center">
+                  <h6>Programming language that I use :</h6>
+                </div>
+                <div id="skill-desc">
+                  <div class="row mb-2">
+                    <div class="col-3 p-4">
+                      <img src="./assets/image/php.png" alt="" />
+                    </div>
+                    <div class="col-9 my-auto">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 87%"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-3 p-4">
+                      <img src="./assets/image/java.png" alt="" />
+                    </div>
+                    <div class="col-9 my-auto">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 75%"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-3 p-4">
+                      <img src="./assets/image/js.png" alt="" />
+                    </div>
+                    <div class="col-9 my-auto">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 68%"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-3 p-4">
+                      <img src="./assets/image/c-.png" alt="" />
+                    </div>
+                    <div class="col-9 my-auto">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 55%"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-3 p-4">
+                      <img src="./assets/image/letter-c.png" alt="" />
+                    </div>
+                    <div class="col-9 my-auto">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 65%"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="container text-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="120"
+                  height="120"
+                  fill="#fffffe"
+                  class="bi bi-code-square mb-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
+                  />
+                  <path
+                    d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0"
+                  />
+                </svg>
+                <h3 class="mb-3">Frontend</h3>
+                <p>
+                  Sebagai seorang pengembang frontend, saya memiliki keahlian
+                  dalam menciptakan antarmuka pengguna yang menarik dan
+                  responsif.
+                </p>
+              </div>
+              <div class="container">
+                <div class="text-center">
+                  <h6>Programming language and framework that I use :</h6>
+                </div>
+                <div id="skill-desc">
+                  <div class="row mb-2">
+                    <div class="col-3 p-4">
+                      <img src="./assets/image/html-5.png" alt="" />
+                    </div>
+                    <div class="col-9 my-auto">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 94%"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-3 p-4">
+                      <img src="./assets/image/css-3.png" alt="" />
+                    </div>
+                    <div class="col-9 my-auto">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 88%"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-3 p-4">
+                      <img src="./assets/image/physics.png" alt="" />
+                    </div>
+                    <div class="col-9 my-auto">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 45%"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-3 p-4">
+                      <img src="./assets/image/bootstrap.png" alt="" />
+                    </div>
+                    <div class="col-9 my-auto">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 85%"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-3 p-4">
+                      <img src="./assets/image/tailwind-css-icon.png" alt="" />
+                    </div>
+                    <div class="col-9 my-auto">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 75%"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="my-experience" class="container my-5">
+      <div class="text-center">
+        <h3 class="section-title">My Experience</h3>
+        <p>Deskripsi singkat tentang pengalaman pemilik website.</p>
+      </div>
+      <div class="container-section p-5">
+        <ul class="timeline">
+          <li class="timeline-item mb-5">
+            <h5 class="fw-bold">
+              Praktek kerja lapangan di CV. Karya Hidup Sentosa
+            </h5>
+            <p class="mb-2 fw-bold">Maret 2021 - Maret 2022</p>
+            <p>
+              Saya melakukan praktek kerja lapangan di CV. Karya Hidup Sentosa
+              sebagai junior programmer. Disana saya tergabung dalam beberapa
+              proyek pembuatan website seperti
+              <a href="https://tokoquick.id/">tokoquick.id</a>,
+              <a href="https://quick.co.id/">quick.co.id</a>, maupun ERP dari
+              perusahaan itu sendiri.
+            </p>
+          </li>
+          <li class="timeline-item">
+            <h5 class="fw-bold">
+              Staff IT di
+              <a href="https://titian-indonesia.id/">titian-indonesia.id</a>
+            </h5>
+            <p class="mb-2 fw-bold">April 2022 - Sekarang</p>
+            <p>
+              Saya bekerja di Titian Indonesia sebagai Staff IT, yang bertugas
+              untuk mengelola, memperbaiki, maupun membuat website yang
+              berkaitan dengan Titian Indonesia, contohnya adalah website untuk
+              psikotes dan website
+              <a href="https://titian-indonesia.id/">Titian Indonesia</a> itu
+              sendiri.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="my-project" class="container my-5">
+      <div class="text-center">
+        <h3 class="section-title">Projects I've Worked On</h3>
+        <p>Beragam proyek yang telah saya ikuti selama karier saya.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Tokoquick.id</h5>
+              <p class="card-text">
+                Merupakan toko online yang dimiliki oleh perusahaan CV. Karya
+                Hidup Sentosa. Pusat Alat Pertanian dan Sparepart Traktor Asli,
+                menyediakan produk-produk asli bermerk QUICK, dan juga
+                produk-produk asli bermerk Kubota.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://tokoquick.id/" class="btn btn-custom">Lihat</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Titian-Indonesia.id</h5>
+              <p class="card-text">
+                Adalah website milik perusahaan Titian Indonesia yang memuat
+                informasi-informasi mengenai perusahaan itu sendiri.
+              </p>
+              >
+            </div>
+            <div class="card-footer">
+              <a href="https://titian-indonesia.id/" class="btn btn-custom"
+                >Lihat</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Quick.co.id</h5>
+              <p class="card-text">
+                Adalah website milik perusahaan CV. Karya Hidup Sentosa yang
+                memuat informasi-informasi mengenai perusahaan itu sendiri.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="https://quick.co.id/" class="btn btn-custom">Lihat</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Slabina-group.id</h5>
+              <p class="card-text">Website ini sudah habis masa hostingnya.</p>
+            </div>
+            <div class="card-footer">
+              <a href="http://slabina-group.com/" class="btn btn-custom"
+                >Lihat</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Kasirq</h5>
+              <p class="card-text">
+                Adalah aplikasi berbasis web, yang berguna untuk mengelola toko,
+                warung, restoran, dll. Ada berbagai macam fitur pada website ini
+                seperti kelola bahan, kelola produk, transaksi, dan customer
+                member.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://github.com/RizalRio/kasirq"
+                class="btn btn-custom"
+                >Lihat</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center text-lg-start" style="background-color: #16161a">
+      <div class="text-center pt-5">
+        <h6>Contact Me :</h6>
+      </div>
+      <div class="container d-flex justify-content-center pb-5">
+        <button
+          type="button"
+          class="btn btn-custom btn-lg btn-floating mx-2"
+          style="background-color: #7f5af0"
+        >
+          <i class="bi bi-envelope-at-fill"></i>
+        </button>
+        <button
+          type="button"
+          class="btn btn-custom btn-lg btn-floating mx-2"
+          style="background-color: #7f5af0"
+        >
+          <i class="bi bi-youtube"></i>
+        </button>
+        <button
+          type="button"
+          class="btn btn-custom btn-lg btn-floating mx-2"
+          style="background-color: #7f5af0"
+        >
+          <i class="bi bi-facebook"></i>
+        </button>
+        <button
+          type="button"
+          class="btn btn-custom btn-lg btn-floating mx-2"
+          style="background-color: #7f5af0"
+        >
+          <i class="bi bi-instagram"></i>
+        </button>
+      </div>
+
+      <div class="text-center text-white p-3" style="background-color: #7f5af0">
+        © 2024
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
+</html>
